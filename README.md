@@ -1,11 +1,11 @@
-Terraform Module to Provision an EC2 Instance running Apache
-Not intendend for production use please
+Terraform Module to Provision an EC2 Instance running Apache\
+Not intendend for production use please\
 Just showcasing how to create a public module on Terraform
 
 ## Usage
 ```hcl
 module "my_vm" {
-  source = "terraform-aws-modules/vpc/b8u8ec2"
+  source = "terraform-aws-modules/ec2/b8u8ec2"
   ec2_instance_type      = "t2.micro"
   ec2_ami_id             = "ami-078a289ddf4b09ae0"
   ec2_key_pair           = "ubs-ec2-keypair-001"
@@ -22,7 +22,7 @@ output "ec2_instance_web_url" {
 ## Usage with Count Meta-Argument
 ```hcl
 module "my_vm" {
-  source = "terraform-aws-modules/vpc/b8u8ec2"
+  source = "terraform-aws-modules/ec2/b8u8ec2"
   count = 3
   ec2_instance_type      = "t2.micro"
   ec2_ami_id             = "ami-078a289ddf4b09ae0"

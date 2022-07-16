@@ -1,10 +1,8 @@
-# Simple Basic Use case
+# Simple Basic use case
 
-Example use case with sensible defaults
-
-Terraform Module to Provision an EC2 Instance running Apache
-Not intendend for production use please
-Just showcasing how to create a public module on Terraform
+Example use case with sensible defaults\
+Note: This is NOT intendend for production use please
+Just showcasing how to create a module on Terraform\
 
 
 ## Usage
