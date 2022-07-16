@@ -1,0 +1,8 @@
+#cloud-config
+#Cloud-Init Configuration Script for the Server
+packages:
+  - httpd
+
+runcmd:
+  - systemctl start httpd
+  - sudo systemctl enable httpd
