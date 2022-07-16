@@ -1,8 +1,8 @@
 # Simple Basic use case
 
 Example use case with sensible defaults\
-Note: This is NOT intendend for production use please
-Just showcasing how to create a module on Terraform\
+Note: This is NOT intendend for production use please\
+Just showcasing how to create a module on Terraform
 
 
 ## Usage
